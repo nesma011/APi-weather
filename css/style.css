@@ -1,0 +1,113 @@
+.logo h6{
+    font-size: 10px;
+}
+
+header
+{
+    background-image: url(../images/bg3.jpg!sw800);
+    background-position: center center;
+    background-size: cover;
+   
+
+}
+
+.col-md-4 .background
+{
+    background-color: rgb(54, 54, 54);
+}
+
+
+div.search input
+{
+    top: 60px;
+    
+}
+div.search button
+{
+    right: 170px;
+    top: 163px;
+}
+
+
+.card-body h1
+{
+    font-size: 80px;
+}
+
+
+.col-md-4 .card
+{
+   height: 50vh;
+   text-align: center;
+}
+
+nav img
+{
+    width: 70px;
+    height: 70px;
+}
+
+footer
+{
+    height: 40vh;
+}
+
+button.sub
+{
+    right: 170px;
+  transform: translateY(-57px);
+}
+
+
+footer {
+    background: var(--color-dark-alt);
+    padding: 50px 0;
+  }
+  
+  .footer .social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: var(--color-dark);
+    color: var(--color-primary);
+    text-align: center;
+    line-height: 2;
+    transition: 0.3s ease;
+    font-size: 20px;
+  }
+  .footer .social-links a:hover {
+    background: var(--color-primary);
+    color: var(--color-light);
+  }
+
+
+  i
+  {
+    padding-inline: 5px;
+  }
+
+
+  .col-md-4 {
+    animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+}
+
+
+  @keyframes swing-in-top-fwd {
+    0% {
+              transform: rotateX(-100deg);
+              transform-origin: top;
+      opacity: 0;
+    }
+    100% {
+              transform: rotateX(0deg);
+              transform-origin: top;
+      opacity: 1;
+    }
+  }
+
+  
+
+
+
+  
